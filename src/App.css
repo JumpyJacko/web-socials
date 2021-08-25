@@ -53,15 +53,11 @@
 a {
     color: #646F83;
     position: absolute;
-    z-index: 2;
     transition: all 0.3s ease;
-    left: 47.5%;
-    top: 50%;
 }
 
 a:hover {
     color: #4B5463;
-    transform: scale(125%);
 }
 
 .twittersocials {
@@ -84,6 +80,10 @@ a:hover {
     left: 49%;
 }
 
-.about {
-    align: centre;
+.twitteris_revealing:hover {
+    transform: scale(125%);
+}
+
+.githubis_revealing:hover {
+    transform: scale(125%);
 }
