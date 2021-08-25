@@ -2,37 +2,88 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #646F83;
+  position: relative;
+  z-index: 1;
+}
+
+.footer {
+    font-size: calc(10px + 1vmin);
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Bird-logo {
+    height: 40vmin;
+}
+
+.Bird-button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+.Bird-button:hover {
+    transform: scale(125%) rotate(5deg);
+}
+
+.Bird-button:active {
+    transform: scale(85%) rotate(-3deg);
+}
+
+a {
+    color: #646F83;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.3s ease;
+    left: 47.5%;
+    top: 50%;
+}
+
+a:hover {
+    color: #4B5463;
+    transform: scale(125%);
+}
+
+.twittersocials {
+    top: 50%;
+    left: 45%;
+}
+
+.githubsocials{
+    top: 50%;
+    left: 49%;
+}
+
+.twitteris_revealing {
+    top: 75%;
+    left: 45%;
+}
+
+.githubis_revealing {
+    top: 75%;
+    left: 49%;
+}
+
+.about {
+    align: centre;
 }
