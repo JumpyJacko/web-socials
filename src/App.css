@@ -62,22 +62,32 @@ a:hover {
 
 .twittersocials {
     top: 50%;
-    left: 45%;
+    left: 47%;
 }
 
 .githubsocials{
     top: 50%;
-    left: 49%;
+    left: 47%;
+}
+
+.twitchsocials {
+    top: 50%;
+    left: 47%;
 }
 
 .twitteris_revealing {
     top: 75%;
-    left: 45%;
+    left: 43%;
 }
 
 .githubis_revealing {
     top: 75%;
-    left: 49%;
+    left: 47%;
+}
+
+.twitchis_revealing {
+    top: 75%;
+    left: 51.25%;
 }
 
 .twitteris_revealing:hover {
@@ -85,5 +95,9 @@ a:hover {
 }
 
 .githubis_revealing:hover {
+    transform: scale(125%);
+}
+
+.twitchis_revealing:hover {
     transform: scale(125%);
 }

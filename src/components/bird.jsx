@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../birb.png';
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faTwitch } from '@fortawesome/free-brands-svg-icons';
 
 class Bird extends Component {
     state = { socialsOpen: false }
@@ -47,6 +47,7 @@ class SocialsGithub extends Component {
             <div> 
                 <a href="https://twitter.com/JumpyJacko" className={"twitter"+this.handleClasses()}><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
                 <a href="https://github.com/JumpyJacko" className={"github"+this.handleClasses()}><FontAwesomeIcon icon={faGithub} size="lg"/></a>
+                <a href="https://twitch.tv/JumpyJacko" className={"twitch"+this.handleClasses()}><FontAwesomeIcon icon={faTwitch} size="lg"/></a>
                 <div className="about">
                     Hey, I'm Jackson Ly (JumpyJacko) and I'm currently learning to code.
                 </div>
